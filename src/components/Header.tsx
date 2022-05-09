@@ -8,9 +8,10 @@ const Text = styled.p`
     font-weight: 800;
 `
 
-export const Header = () => {
+const Header = () => {
     return (
-        <div className="flex flex-col justify-center items-center m-auto w-screen h-screen divide-y-2 bg-me bg-cover bg-center">
+        <div className="flex flex-col justify-center items-center m-auto w-screen h-screen divide-y-2 bg-heroForHeader bg-cover bg-center">
+        {/* Foto von Erik Mclean von Pexels: https://www.pexels.com/de-de/foto/spielzeug-superheld-nahe-laptop-auf-tisch-zu-hause-4048093/ */}
             <Text className="flex">
                 Robin Leber  
             </Text>
@@ -20,3 +21,5 @@ export const Header = () => {
         </div>
     )
 }
+
+export default Header;

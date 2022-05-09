@@ -3,7 +3,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'me': "url('./assets/images/Rob.jpeg')"
+        'me': "url('./assets/images/Rob.jpeg')",
+        'heroForHeader': "url('./assets/images/groot.jpg')"
       }
     },
   },

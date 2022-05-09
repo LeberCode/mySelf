@@ -1,5 +1,10 @@
 import React from 'react';
-import {Header} from './components/Header';
+import Header from './components/Header';
+import Profile from './components/Profile';
+import CareerPath from './components/CareerPath';
+import Skills from './components/Skills';
+import OwnInterest from './components/OwnInterest';
+import Footer from './components/Footer';
 import styled from 'styled-components';
 
 
@@ -11,9 +16,11 @@ function App() {
   return (
     <Wrapper>
       <Header/>
-      <div className="App">
-        Hi this is Robin!
-      </div>
+      <Profile/>
+      <CareerPath/>
+      <Skills/>
+      <OwnInterest/>
+      <Footer/>
     </Wrapper>
   );
 }
