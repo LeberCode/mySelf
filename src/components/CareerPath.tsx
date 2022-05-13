@@ -1,6 +1,8 @@
-const CareerPath = () => {
+import { ChildrenProps } from "../interfaces/childrenProps";
+
+const CareerPath = (props: ChildrenProps) => {
     return(
-        <div>
+        <div className={props.style}>
             CareerPath
         </div>
     )

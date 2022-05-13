@@ -1,6 +1,8 @@
-const Skills = () => {
+import { ChildrenProps } from "../interfaces/childrenProps";
+
+const Skills = (props: ChildrenProps) => {
     return (
-        <div>
+        <div className={props.style}>
             Skills
         </div>
     )

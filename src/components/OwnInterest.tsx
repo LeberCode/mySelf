@@ -1,6 +1,8 @@
-const OwnInterest = () => {
+import { ChildrenProps } from "../interfaces/childrenProps";
+
+const OwnInterest = (props: ChildrenProps) => {
     return (
-        <div>
+        <div className={props.style}>
             OwnInterest
         </div>
     )
