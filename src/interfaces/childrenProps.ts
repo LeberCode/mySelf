@@ -1,3 +1,6 @@
 export interface ChildrenProps {
-    style: string
+    styleHeader: string,
+    title: string,
+    quote: string,
+    author: string
 }

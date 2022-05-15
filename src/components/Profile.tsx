@@ -1,11 +1,14 @@
 import React, {useState} from "react";
 import styled from "styled-components";
 
-import {Person, About} from "../types/Profile"
-import data from "../assets/data/profileInfoData.json";
+import SectionHeader from "./SectionHeader";
 
-import {ChildrenProps} from '../interfaces/childrenProps';
+import { Person, About } from "../types/Profile"
+import { ChildrenProps } from '../interfaces/childrenProps';
 import { Colors } from "../types/Colors";
+
+import data from "../assets/data/profileInfoData.json";
+import { SectionHeaderProps } from "../interfaces/sectionHeaderProps";
 
 const person: Person = data.person;
 const aboutLorem: About = data.aboutLorem;
@@ -26,21 +29,19 @@ const getAge = (dateString: string) => {
 
 const Profile = (props: ChildrenProps) => {
     const [about, setAbout] = useState(false);
+
+    const sectionHeaderProps: SectionHeaderProps = {
+        title: props.title,
+        quote: props.quote,
+        author: props.author,
+    }
+
     return (
         // Wrapper
-        <div className={`${props.style} divide-y-8 divide-signal`}>
-            {/* header */}
-            <div>
-                <div className="text-5xl">
-                    Profile
-                </div>
-                <div className="text-black py-8">
-                    "Das hab ich alles mit React und TypeScript gemacht" - Robin Leber 
-                    {/* Muss noch in data */}
-                </div>
-            </div>
+        <div className={props.styleHeader}>
+            <SectionHeader {...sectionHeaderProps}/>
             <div className="flex flex-row flex-grow py-8 text-left">
-                {/* aboutLorem */}
+                {/* about */}
                 <div className="flex-1 px-4">
                     <div className="text-3xl pb-8">
                         About me

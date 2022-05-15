@@ -1,0 +1,24 @@
+{
+    "quotes": [
+        {
+            "section": "Profile",
+            "quote": "I did this all by myself with React and TypeScript.",
+            "author": "Robin Leber"
+        },
+        {
+            "section": "Career",
+            "quote": "Passwords are like underwear: you don’t let people see it, you should change it very often, and you shouldn’t share it with strangers",
+            "author": "Chris Pirillo"
+        },
+        {
+            "section": "Skills",
+            "quote": "If you really look closely, most overnight successes took a long time.",
+            "author": "Steve Jobs"
+        },
+        {
+            "section": "Interests",
+            "quote": "Love the life you live. Live the life you love.",
+            "author": "Bob Marley"
+        }
+    ]
+}

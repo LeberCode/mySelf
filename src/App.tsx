@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import styled from 'styled-components';
 
 import Header from './components/Header';
@@ -8,15 +8,39 @@ import Skills from './components/Skills';
 import OwnInterest from './components/OwnInterest';
 import Footer from './components/Footer';
 
-import {ChildrenProps} from './interfaces/childrenProps'
-import {Colors} from './types/Colors';
+import { ChildrenProps } from './interfaces/childrenProps'
+import { SectionHeaderProps } from './interfaces/sectionHeaderProps';
+import { Colors } from './types/Colors';
+
+import quotesData from "./assets/data/quotesData.json";
 
 
 const Wrapper = styled.div`
   overflow-x: scroll;
 `
-let childrenProps: ChildrenProps={
-  style:"mx-64",
+let profileProps: ChildrenProps={
+  styleHeader:"mx-64 divide-y-8 divide-signal",
+  title: quotesData.quotes[0].section,
+  quote: quotesData.quotes[0].quote,
+  author: quotesData.quotes[0].author,
+}
+let careerProps: ChildrenProps={
+  styleHeader:"mx-64 divide-y-8 divide-signal",
+  title: quotesData.quotes[1].section,
+  quote: quotesData.quotes[1].quote,
+  author: quotesData.quotes[1].author,
+}
+let skillsProps: ChildrenProps={
+  styleHeader:"mx-64 divide-y-8 divide-signal",
+  title: quotesData.quotes[2].section,
+  quote: quotesData.quotes[2].quote,
+  author: quotesData.quotes[2].author,
+}
+let interestProps: ChildrenProps={
+  styleHeader:"mx-64 divide-y-8 divide-signal",
+  title: quotesData.quotes[3].section,
+  quote: quotesData.quotes[3].quote,
+  author: quotesData.quotes[3].author,
 }
 
 
@@ -32,24 +56,24 @@ const Content = styled.div<{primary: boolean}>`
   background: ${props => props.primary ? Colors['white'] : Colors['secondBackground']};
 `;
 
-
-
 const App = () => {
+  const [childId, setChildId] = useState(0);
+
   return (
     <Wrapper>
       <Header/>
       <ContentWrapper>
         <Content primary>
-          <Profile {...childrenProps}/>
+          <Profile {...profileProps}/>
         </Content>
         <Content primary={false}>
-          <CareerPath {...childrenProps}/>
+          <CareerPath {...careerProps}/>
         </Content>
         <Content primary>
-          <Skills {...childrenProps}/>
+          <Skills {...skillsProps}/>
         </Content>
         <Content primary={false}>
-          <OwnInterest {...childrenProps}/>
+          <OwnInterest {...interestProps}/>
         </Content>
       </ContentWrapper>
       <Footer/>
