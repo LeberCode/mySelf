@@ -29,9 +29,10 @@ const SkillContent = styled.div`
     display: flex;
     flex-basis: 50%;
     padding: 0.25rem;
+    border-radius: 6px;
 
     &:hover{
-        background-color: ${Colors.secondBackground}
+        box-shadow: ${Colors.secondBackground} 0px 0px 10px 5px;
     }
 `
 
