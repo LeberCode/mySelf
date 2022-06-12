@@ -1,0 +1,82 @@
+[
+    {
+        "name": "JavaScript",
+        "value": 4,
+        "type": "coding"
+    },
+    {
+        "name": "React.js",
+        "value": 4,
+        "type": "coding"
+    },
+    {
+        "name": "Node.js",
+        "value": 3,
+        "type": "coding"
+    },
+    {
+        "name": "TypeScript",
+        "value": 4,
+        "type": "coding"
+    },
+    {
+        "name": "Angular",
+        "value": 3,
+        "type": "coding"
+    },
+    {
+        "name": "Next.js",
+        "value": 1,
+        "type": "coding"
+    },
+    {
+        "name": "Git",
+        "value": 4,
+        "type": "devops"
+    },
+    {
+        "name": "MongoDB",
+        "value": 2,
+        "type": "coding"
+    },
+    {
+        "name": "Tailwind CSS",
+        "value": 3,
+        "type": "coding"
+    },
+    {
+        "name": "Gatsby.js",
+        "value": 3,
+        "type": "coding"
+    },
+    {
+        "name": "Scrum",
+        "value": 4,
+        "type": "devops"
+    },
+    {
+        "name": "teamfähigkeit",
+        "value": 4,
+        "type": "social"
+    },
+    {
+        "name": "humor",
+        "value": 4,
+        "type": "social"
+    },
+    {
+        "name": "sexy",
+        "value": 5,
+        "type": "social"
+    },
+    {
+        "name": "ehrgeiz",
+        "value": 4,
+        "type": "social"
+    },
+    {
+        "name": "doof",
+        "value": 0,
+        "type": "social"
+    }
+]

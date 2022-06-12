@@ -1,4 +1,3 @@
-import React, {useState} from 'react';
 import styled from 'styled-components';
 
 import Header from './components/Header';
@@ -9,7 +8,6 @@ import OwnInterest from './components/OwnInterest';
 import Footer from './components/Footer';
 
 import { ChildrenProps } from './interfaces/childrenProps'
-import { SectionHeaderProps } from './interfaces/sectionHeaderProps';
 import { Colors } from './types/Colors';
 
 import quotesData from "./assets/data/quotesData.json";
@@ -57,7 +55,6 @@ const Content = styled.div<{primary: boolean}>`
 `;
 
 const App = () => {
-  const [childId, setChildId] = useState(0);
 
   return (
     <Wrapper>

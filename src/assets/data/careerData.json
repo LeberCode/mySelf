@@ -1,0 +1,50 @@
+[
+    {
+        "profession": "Frontend Software Developer",
+        "employmentType": "Internship",
+        "company": "tapio GmbH",
+        "location": {
+            "city": "Nagold",
+            "country": "Germany"
+        },
+        "remote": false,
+        "periodStart": "09/2019",
+        "periodEnd": "02/2020",
+        "description": "blabla",
+        "keywords": ["JavaScript", "React", "TypeScript", "Git"],
+        "link": "https://www.tapio.one/de/",
+        "logo": ""
+    },
+    {
+        "profession": "IT assistant",
+        "employmentType": "Student",
+        "company": "Stadtwerke Tübingen",
+        "location": {
+            "city": "Tübingen",
+            "country": "Germany"
+        },
+        "remote": false,
+        "periodStart": "03/2020",
+        "periodEnd": "04/2020",
+        "description": "blabla",
+        "keywords": [],
+        "link": "https://www.swtue.de/",
+        "logo": ""
+    },
+    {
+        "profession": "Full-Stack Developer",
+        "employmentType": "Internship",
+        "company": "Pitch Club AG",
+        "location": {
+            "city": "Frankfurt",
+            "country": "Germany"
+        },
+        "remote": true,
+        "periodStart": "02/2021",
+        "periodEnd": "08/2021",
+        "description": "blabla",
+        "keywords": ["JavaScript", "React", "Node", "Git"],
+        "link": "https://thepitchclub.com/",
+        "logo": ""
+    }
+]

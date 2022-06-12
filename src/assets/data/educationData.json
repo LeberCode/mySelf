@@ -1,0 +1,44 @@
+[
+    {
+        "degree": "Abitur",
+        "institution": "Sankt Meinrad Gymnasium",
+        "grade": "2.9",
+        "location" : {
+            "city": "Rottenburg",
+            "country": "Germany"
+        },
+        "periodStart": "09/2008",
+        "periodEnd": "07/2016",
+        "description": "Bla Bla",
+        "link": "https://www.smg.de/",
+        "logo": "./assets"
+    },
+    {
+        "degree": "B.Sc. Medien- und Kommunikationsinformatik",
+        "institution": "Reutlingen University",
+        "grade": "2.3",
+        "location" : {
+            "city": "Reutlingen",
+            "country": "Germany"
+        },
+        "periodStart": "10/2017",
+        "periodEnd": "02/2022",
+        "description": "Bla Bla",
+        "link": "https://www.inf.reutlingen-university.de/studium/medien-und-kommunikationsinformatik-mki/was-ist-mki/",
+        "logo": "./assets"
+    },
+    {
+        "degree": "M.Sc. Digital Business Engineering",
+        "institution": "Hermann Hollerith Zentrum",
+        "grade": "to be declared",
+        "location": {
+            "city": "Böblingen",
+            "country": "Germany"
+        },
+        "periodStart": "03/2022",
+        "periodEnd": "02/2024",
+        "description": "Bla Bla",
+        "link": "https://www.hhz.de/de/master/digital-business-engineering/",
+        "logo": "./assets"
+    }
+]
