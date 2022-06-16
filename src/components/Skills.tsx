@@ -9,9 +9,9 @@ import { SkillsData, SkillType } from "../types/Skills";
 import { Colors } from "../types/Colors";
 
 const skills: SkillsData[] = skillData;
-const codingSkills: SkillsData[] = skillData.filter(skill => skill.type === (SkillType.Coding));
-const devopsSkills: SkillsData[] = skillData.filter(skill => skill.type === (SkillType.DevOps));
-const socialSkills: SkillsData[] = skillData.filter(skill => skill.type === (SkillType.Social));
+const codingSkills: SkillsData[] = skillData.filter(skill => skill.type === (SkillType.Coding)).sort((a,b) => b.value - a.value);
+const devopsSkills: SkillsData[] = skillData.filter(skill => skill.type === (SkillType.DevOps)).sort((a,b) => b.value - a.value);
+const socialSkills: SkillsData[] = skillData.filter(skill => skill.type === (SkillType.Social)).sort((a,b) => b.value - a.value);
 
 const SkillHeading = styled.p`
     text-align: left;
@@ -23,6 +23,7 @@ const SkillWrapper = styled.div`
     flex-wrap: wrap;
     display: flex;
     margin: 6px 0;
+    color: ${Colors.black}
 `;
 
 const SkillContent = styled.div`
@@ -34,14 +35,14 @@ const SkillContent = styled.div`
     &:hover{
         box-shadow: ${Colors.secondBackground} 0px 0px 10px 5px;
     }
-`
+`;
 
 const Skills = (props: ChildrenProps) => {
     const sectionHeaderProps: SectionHeaderProps = {
         title: props.title,
         quote: props.quote,
         author: props.author,
-    }
+    };
     
     return (
         <div className={props.styleHeader}>

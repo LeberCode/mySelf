@@ -1,6 +1,6 @@
 import { Star, StarBorder } from '@material-ui/icons';
 
-const style = "flex basis-1/4";
+const style = "flex basis-1/4 text-signal";
 
 export const getStars = (value: number) => {
     switch(value){
