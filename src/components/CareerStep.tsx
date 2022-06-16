@@ -4,7 +4,7 @@ import { shortenLink } from "../functions/shortenLink";
 
 const CareerStep = (props: Career) => {
     return (
-        <div className="flex flex-row text-left my-6 text-black">
+        <div className="flex flex-row text-left my-6 p-4 text-black rounded-md hover:shadow-customWhite">
             <div className="basis-1/2 flex flex-col">
                 <p className="text-lg font-semibold">
                     {props.company}
@@ -15,16 +15,16 @@ const CareerStep = (props: Career) => {
             </div>
             <div className="basis-1/2 flex flex-col">
                 <p className="text-lg font-semibold">
-                    {props.employmentType}: {props.profession}
+                    {props.employmentType} {props.profession === "" ? "" : `: ${props.profession}`}
                 </p>
-                <p className="italic">
+                <p className="italic text-sm">
                     {props.keywords.map((keyword, i) => {
                         let returnVal;
                         i < props.keywords.length-1 ? returnVal = `${keyword} | ` : returnVal = `${keyword}`;
                         return returnVal;
                     })}
                 </p>
-                <p>
+                <p className="py-2">
                     {props.description}
                 </p>
                 <div className="flex divide-x-2 divide-signal text-signal">

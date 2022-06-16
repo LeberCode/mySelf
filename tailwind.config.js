@@ -13,6 +13,9 @@ module.exports = {
         'white': "#FFFFFF",
         'signal': "#091F5C", // Signalfarbe
         'secondBackground': "#EAEAEA", // 2. Hintergrundfarbe
+      },
+      boxShadow: {
+        'customWhite': "0px 0px 10px 5px rgba(255, 255, 255, 0.9)"
       }
     },
   },

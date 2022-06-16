@@ -52,7 +52,7 @@ const Profile = (props: ChildrenProps) => {
                 </div>
                 {/* picture */}
                 <div className="flex-1">
-                    <div className="bg-myShadow hover:bg-meProf w-full h-full bg-cover bg-center rounded-full shadow-lg scale-90 shadow-secondBackground transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-100"/>
+                    <div className="bg-myShadow hover:bg-meProf w-full h-full bg-cover bg-center rounded-full shadow-lg shadow-secondBackground scale-90 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-100"/>
                 </div>
                 {/* info */}
                 <div className="flex-1 px-4">
