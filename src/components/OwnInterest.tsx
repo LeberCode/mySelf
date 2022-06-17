@@ -44,9 +44,15 @@ const OwnInterest = (props: ChildrenProps) => {
                                         {interest.title}
                                     </p>
                                     <div className="pt-2 text-black">
-                                        <p>
-                                            {interest.description}
-                                        </p>
+                                        <ul className="list-disc pl-4">
+                                            {interest.description.map(descriptionPart => {
+                                                return (
+                                                    <li className="p-2">
+                                                        {descriptionPart}
+                                                    </li>
+                                                )
+                                            })}
+                                        </ul>
                                     </div>
                                     {
                                         interest.link ? 

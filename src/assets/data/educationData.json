@@ -9,7 +9,7 @@
         },
         "periodStart": "09/2008",
         "periodEnd": "07/2016",
-        "description": "Bla Bla",
+        "description": "School and grades - do they matter at all in later (real) life? In any case, I took and passed it with the main subjects of economics and biology.",
         "link": "https://www.smg.de/",
         "logo": "./assets"
     },
@@ -23,13 +23,13 @@
         },
         "periodStart": "10/2017",
         "periodEnd": "02/2022",
-        "description": "Bla Bla",
+        "description": "The combination of computer science and media makes this degree program so interesting. The computer science content is taught through practical project and group work. Content ranging from data analysis to UI/UX design to game development is taught by competent professors and lecturers. The courses such as photography, video and graphics offer a broad media insight and round off the study.",
         "link": "https://www.inf.reutlingen-university.de/studium/medien-und-kommunikationsinformatik-mki/was-ist-mki/",
         "logo": "./assets"
     },
     {
         "degree": "M.Sc. Digital Business Engineering",
-        "institution": "Hermann Hollerith Zentrum",
+        "institution": "Reutlingen University - Hermann Hollerith Zentrum",
         "grade": "to be declared",
         "location": {
             "city": "Böblingen",
@@ -37,7 +37,7 @@
         },
         "periodStart": "03/2022",
         "periodEnd": "02/2024",
-        "description": "Bla Bla",
+        "description": "This is where my path into the digital business world begins. It is very exciting how my previous knowledge of software development interacts and harmonizes with the new content of the business models. The perfect approach to work with digitalization.",
         "link": "https://www.hhz.de/de/master/digital-business-engineering/",
         "logo": "./assets"
     }

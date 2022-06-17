@@ -21,7 +21,7 @@ const EducationStep = (props: Education) => {
                 <p className="italic">
                     {props.grade}
                 </p>
-                <p>
+                <p className="py-2">
                     {props.description}
                 </p>
                 <div className="flex divide-x-2 divide-signal text-signal">

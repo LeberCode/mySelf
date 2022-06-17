@@ -10,8 +10,8 @@
         "remote": false,
         "periodStart": "09/2016",
         "periodEnd": "08/2017",
-        "description": "blabla",
-        "keywords": ["Teamwork", "Working with kids"],
+        "description": "I used the FSJ as an orientation year because I didn't know what I wanted to study after school. During this time, I developed personally and built up responsibility, team work and a sense of duty by working with children.",
+        "keywords": ["Teamwork", "Working with children"],
         "link": "https://tv-rottenburg.de/home",
         "logo": ""
     },
@@ -26,8 +26,8 @@
         "remote": false,
         "periodStart": "09/2019",
         "periodEnd": "02/2020",
-        "description": "blabla",
-        "keywords": ["JavaScript", "React", "TypeScript", "Git"],
+        "description": "Tapio is a succesful startup that builds an ecosystem for the wood industry. Here I got the great chance to develop technically with a great start-up team. Through my own project I was trained in all areas of frontend software development. I even worked with the team and learned a lot about working with Scrum.",
+        "keywords": ["JavaScript", "React", "TypeScript", "Git", "Scrum"],
         "link": "https://www.tapio.one/de/",
         "logo": ""
     },
@@ -42,7 +42,7 @@
         "remote": false,
         "periodStart": "03/2020",
         "periodEnd": "04/2020",
-        "description": "blabla",
+        "description": "As an assistant in the IT department, I demonstrated my independent working style. Monitoring a mail quarantine was not that demanding, but it had to be done conscientiously.",
         "keywords": [],
         "link": "https://www.swtue.de/",
         "logo": ""
@@ -58,7 +58,7 @@
         "remote": true,
         "periodStart": "02/2021",
         "periodEnd": "08/2021",
-        "description": "blabla",
+        "description": "Pitch Club provides HR software for developers that connects applicants directly with IT executives. Here I was able to apply my knowledge intensively, as I develop a lot frontend issues of this software.",
         "keywords": ["JavaScript", "React", "Node", "Git"],
         "link": "https://thepitchclub.com/",
         "logo": ""

@@ -6,6 +6,7 @@ export type SkillsData = {
 
 export enum SkillType {
     Coding = "coding",
-    DevOps = "devops",
+    Other = "other",
     Social = "social",
+    Language = "lang",
 }

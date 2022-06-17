@@ -59,20 +59,20 @@ const Profile = (props: ChildrenProps) => {
                     <div className="text-3xl pb-4">
                         Info
                     </div>
-                    <div className="text-black bg-secondBackground rounded-lg p-2 max-w-fit shadow-md shadow-signal rotate-12 m-4 ml-8 mt-0 transition hover:rotate-0 duration-700">
-                        <p className="font-bold">
+                    <div className="text-black bg-secondBackground rounded-lg p-2 max-w-fit shadow-md shadow-signal rotate-12 m-4 ml-8 mt-0 transition hover:rotate-0 duration-100">
+                        <p className="font-semibold">
                             Name:
                         </p>
                         <p className="pb-4">
                             {person.firstName} {person.lastName}
                         </p>
-                        <p className="font-bold">
+                        <p className="font-semibold">
                             Age:
                         </p>
                         <p className="pb-4">
                             {getAge(person.dateOfBirth)} years
                         </p>
-                        <p className="font-bold">
+                        <p className="font-semibold">
                             Location:
                         </p>
                         <p>

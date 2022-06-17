@@ -1,5 +1,5 @@
 export type Interest = {
     title: string;
-    description: string;
+    description: string[];
     link: string;
 }

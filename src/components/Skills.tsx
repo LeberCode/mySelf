@@ -10,8 +10,9 @@ import { Colors } from "../types/Colors";
 
 const skills: SkillsData[] = skillData;
 const codingSkills: SkillsData[] = skillData.filter(skill => skill.type === (SkillType.Coding)).sort((a,b) => b.value - a.value);
-const devopsSkills: SkillsData[] = skillData.filter(skill => skill.type === (SkillType.DevOps)).sort((a,b) => b.value - a.value);
+const otherSkills: SkillsData[] = skillData.filter(skill => skill.type === (SkillType.Other)).sort((a,b) => b.value - a.value);
 const socialSkills: SkillsData[] = skillData.filter(skill => skill.type === (SkillType.Social)).sort((a,b) => b.value - a.value);
+const languagelSkills: SkillsData[] = skillData.filter(skill => skill.type === (SkillType.Language)).sort((a,b) => b.value - a.value);
 
 const SkillHeading = styled.p`
     text-align: left;
@@ -63,9 +64,24 @@ const Skills = (props: ChildrenProps) => {
                 </SkillWrapper>
             </div>
             <div>
-                <SkillHeading>DevOps Skills</SkillHeading>
+                <SkillHeading>Other Skills</SkillHeading>
                 <SkillWrapper>
-                    {devopsSkills.map((skill, i) => {
+                    {otherSkills.map((skill, i) => {
+                        return(
+                            <SkillContent>
+                                <div className="flex basis-1/2">
+                                    {skill.name}
+                                </div>
+                                {getStars(skill.value)}
+                            </SkillContent>
+                        )
+                    })}
+                </SkillWrapper>
+            </div>
+            <div>
+                <SkillHeading>Language</SkillHeading>
+                <SkillWrapper>
+                    {languagelSkills.map((skill, i) => {
                         return(
                             <SkillContent>
                                 <div className="flex basis-1/2">

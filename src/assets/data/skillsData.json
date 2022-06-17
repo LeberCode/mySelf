@@ -1,5 +1,80 @@
 [
     {
+        "name": "German",
+        "value": 5,
+        "type": "lang"
+    },
+    {
+        "name": "French",
+        "value": 1,
+        "type": "lang"
+    },
+    {
+        "name": "English",
+        "value": 4,
+        "type": "lang"
+    },
+    {
+        "name": "Photography",
+        "value": 3,
+        "type": "other"
+    },
+    {
+        "name": "Video",
+        "value": 2,
+        "type": "other"
+    },
+    {
+        "name": "Graphics",
+        "value": 4,
+        "type": "other"
+    },
+    {
+        "name": "Gimp",
+        "value": 4,
+        "type": "other"
+    },
+    {
+        "name": "Latex",
+        "value": 4,
+        "type": "other"
+    },
+    {
+        "name": "MS Office",
+        "value": 4,
+        "type": "other"
+    },
+    {
+        "name": "Teamwork",
+        "value": 5,
+        "type": "social"
+    },
+    {
+        "name": "Willingness to learn",
+        "value": 5,
+        "type": "social"
+    },
+    {
+        "name": "Having fun",
+        "value": 5,
+        "type": "social"
+    },
+    {
+        "name": "Volleyball",
+        "value": 5,
+        "type": "social"
+    },
+    {
+        "name": "Disco Fox",
+        "value": 3,
+        "type": "social"
+    },
+    {
+        "name": "Viennese waltz",
+        "value": 1,
+        "type": "social"
+    },
+    {
         "name": "JavaScript",
         "value": 4,
         "type": "coding"
@@ -11,11 +86,6 @@
     },
     {
         "name": "Node.js",
-        "value": 3,
-        "type": "coding"
-    },
-    {
-        "name": "TypeScript",
         "value": 4,
         "type": "coding"
     },
@@ -26,21 +96,6 @@
     },
     {
         "name": "Next.js",
-        "value": 1,
-        "type": "coding"
-    },
-    {
-        "name": "Git",
-        "value": 4,
-        "type": "devops"
-    },
-    {
-        "name": "MongoDB",
-        "value": 2,
-        "type": "coding"
-    },
-    {
-        "name": "Tailwind CSS",
         "value": 3,
         "type": "coding"
     },
@@ -50,33 +105,113 @@
         "type": "coding"
     },
     {
+        "name": "Tailwind CSS",
+        "value": 4,
+        "type": "coding"
+    },
+    {
+        "name": "Python",
+        "value": 3,
+        "type": "coding"
+    },
+    {
+        "name": "C#",
+        "value": 3,
+        "type": "coding"
+    },
+    {
+        "name": "C++",
+        "value": 2,
+        "type": "coding"
+    },
+    {
+        "name": "CI/CD",
+        "value": 3,
+        "type": "coding"
+    },
+    {
+        "name": "Data Analysis",
+        "value": 2,
+        "type": "coding"
+    },
+    {
+        "name": "Game Development",
+        "value": 2,
+        "type": "coding"
+    },
+    {
         "name": "Scrum",
         "value": 4,
-        "type": "devops"
+        "type": "coding"
     },
     {
-        "name": "teamfähigkeit",
+        "name": "Git",
         "value": 4,
-        "type": "social"
+        "type": "coding"
     },
     {
-        "name": "humor",
+        "name": "MongoDB",
+        "value": 3,
+        "type": "coding"
+    },
+    {
+        "name": "HTML",
         "value": 4,
-        "type": "social"
+        "type": "coding"
     },
     {
-        "name": "sexy",
-        "value": 5,
-        "type": "social"
-    },
-    {
-        "name": "ehrgeiz",
+        "name": "CSS",
         "value": 4,
-        "type": "social"
+        "type": "coding"
     },
     {
-        "name": "doof",
-        "value": 0,
-        "type": "social"
+        "name": "Java",
+        "value": 3,
+        "type": "coding"
+    },
+    {
+        "name": "Bootstrap",
+        "value": 2,
+        "type": "coding"
+    },
+    {
+        "name": "SEO",
+        "value": 2,
+        "type": "coding"
+    },
+    {
+        "name": "UML",
+        "value": 3,
+        "type": "coding"
+    },
+    {
+        "name": "Wordpress",
+        "value": 3,
+        "type": "coding"
+    },
+    {
+        "name": "JSON",
+        "value": 4,
+        "type": "coding"
+    },
+    {
+        "name": "Markdown",
+        "value": 2,
+        "type": "coding"
+    },
+    {
+        "name": "Adobe XD",
+        "value": 4,
+        "type": "coding"
+    },
+    {
+        "name": "jira",
+        "value": 4,
+        "type": "coding"
+    },
+    {
+        "name": "Azure Devops",
+        "value": 4,
+        "type": "coding"
     }
 ]

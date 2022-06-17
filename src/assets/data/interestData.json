@@ -1,17 +1,32 @@
 [
     {
         "title": "Volleyball",
-        "description": "TV Rottenburg | 2. Bundesliga Süd <br/> Captain <br/> Coach for 4 years",
+        "description": [
+            "TV Rottenburg",
+            "Promotion to the 2nd Bundesliga South in 2022",
+            "Outside Hitter",
+            "Captain since 2021",
+            "Youth coach for 4 years"
+        ],
         "link": "https://www.volleyball-rottenburg.de"
     },
     {
-        "title": "Wengert Hexen 1999 e.V.",
-        "description": "",
+        "title": "Fasnet",
+        "description": [
+            "Wengert Hexen 1999 e.V.",
+            "Sine 2017",
+            "Loving the community and the events throughout the year"
+        ],
         "link": "https://wengert-hexen.de"
     },
     {
         "title": "Travelling",
-        "description": "Scandinavia",
+        "description": [
+            "Norway | 2022 | 1 week | Highlight: Trolltunga and Preikestolen",
+            "Sweden | 2022 | 2 weeks | Highlight: Smöden and the search for moose",
+            "Turkey | 2022 | 10 days: Hiking the Lycian Way",
+            "Italy | 2021 | 1 week: Lake Como"
+        ],
         "link": ""
     }
 ]
