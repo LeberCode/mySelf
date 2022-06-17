@@ -7,8 +7,8 @@
         },
         {
             "section": "Career",
-            "quote": "Passwords are like underwear: you don’t let people see it, you should change it very often, and you shouldn’t share it with strangers",
-            "author": "Chris Pirillo"
+            "quote": "Whether you think you can, or you think you can't - you're right.",
+            "author": "Henry Ford"
         },
         {
             "section": "Skills",
@@ -19,6 +19,11 @@
             "section": "Interests",
             "quote": "Love the life you live. Live the life you love.",
             "author": "Bob Marley"
+        },
+        {
+            "section": "Contact",
+            "quote": "The only thing worse than being talked about is not being talked about.",
+            "author": "Oscar Wilde"
         }
     ]
 }

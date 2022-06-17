@@ -5,7 +5,7 @@ import Profile from './components/Profile';
 import CareerPath from './components/CareerPath';
 import Skills from './components/Skills';
 import OwnInterest from './components/OwnInterest';
-import Footer from './components/Footer';
+import Contact from './components/Footer';
 
 import { ChildrenProps } from './interfaces/childrenProps'
 import { Colors } from './types/Colors';
@@ -40,6 +40,12 @@ let interestProps: ChildrenProps={
   quote: quotesData.quotes[3].quote,
   author: quotesData.quotes[3].author,
 }
+let contactProps: ChildrenProps={
+  styleHeader:"mx-64 divide-y-8 divide-signal",
+  title: quotesData.quotes[4].section,
+  quote: quotesData.quotes[4].quote,
+  author: quotesData.quotes[4].author,
+}
 
 
 const ContentWrapper = styled.div`
@@ -72,8 +78,10 @@ const App = () => {
         <Content primary={false}>
           <OwnInterest {...interestProps}/>
         </Content>
+        <Content primary>
+          <Contact {...contactProps}/>
+        </Content>
       </ContentWrapper>
-      <Footer/>
     </Wrapper>
   );
 }
