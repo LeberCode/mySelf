@@ -13,4 +13,4 @@ phases:
   post_build:
     commands:
       - echo "Updating files in the S3 bucket..."
-      - aws s3 sync dist/myself/ s3://Leber-Resume --delete
+      - aws s3 sync dist/myself/ s3://leber-resume --delete
