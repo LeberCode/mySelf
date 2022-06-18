@@ -5,11 +5,11 @@ phases:
       nodejs: 12
     commands: 
       - echo "Installing dependencies..."
-      - yarn install
+      - npm install
   build:
     commands:
       - echo "Building project..."
-      - yarn build
+      - react-scripts build
   post_build:
     commands:
       - echo "Updating files in the S3 bucket..."
