@@ -46,20 +46,20 @@ const Profile = (props: ChildrenProps) => {
                     <div className="text-3xl pb-8">
                         About me
                     </div>
-                    <div className="text-black bg-secondBackground rounded-lg p-2 max-w-fit shadow-md shadow-signal" onMouseOver={() => setAbout(!about)} onMouseLeave={() => setAbout(!about)}>
+                    <div className="text-black bg-white rounded-lg p-2 max-w-fit shadow-md shadow-signal" onMouseOver={() => setAbout(!about)} onMouseLeave={() => setAbout(!about)}>
                         {about ? aboutMe: aboutLorem}
                     </div>
                 </div>
                 {/* picture */}
                 <div className="flex-1">
-                    <div className="bg-myShadow hover:bg-meProf w-full h-full bg-cover bg-center rounded-full shadow-lg shadow-secondBackground scale-90 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-100"/>
+                    <div className="bg-myShadow hover:bg-meProf w-full h-full bg-cover bg-center rounded-full shadow-lg shadow-white scale-90 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-100"/>
                 </div>
                 {/* info */}
                 <div className="flex-1 px-4">
                     <div className="text-3xl pb-4">
                         Info
                     </div>
-                    <div className="text-black bg-secondBackground rounded-lg p-2 max-w-fit shadow-md shadow-signal rotate-12 m-4 ml-8 mt-0 transition hover:rotate-0 duration-100">
+                    <div className="text-black bg-white rounded-lg p-2 max-w-fit shadow-md shadow-signal rotate-12 m-4 ml-8 mt-0 transition hover:rotate-0 duration-100">
                         <p className="font-semibold">
                             Name:
                         </p>
