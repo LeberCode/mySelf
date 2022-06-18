@@ -59,7 +59,7 @@ const Profile = (props: ChildrenProps) => {
                     <div className="text-3xl pb-4">
                         Info
                     </div>
-                    <div className="text-black bg-white rounded-lg p-2 max-w-fit shadow-md shadow-signal rotate-12 m-4 ml-8 mt-0 transition hover:rotate-0 duration-100">
+                    <div className="text-black bg-white rounded-lg p-2 max-w-fit shadow-md shadow-signal rotate-180 m-4 ml-8 mt-0 transition hover:rotate-0 duration-300">
                         <p className="font-semibold">
                             Name:
                         </p>
