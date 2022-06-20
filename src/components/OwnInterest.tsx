@@ -32,16 +32,16 @@ const OwnInterest = (props: ChildrenProps) => {
                     interests.map( (interest:Interest, index ) => {
                         return(
                             <div className={`
-                                flex h-80 bg-white m-4 mt-8 max-w-fit min-w-fit text-left relative
+                                lg:flex lg:h-80 h-fit bg-white m-4 mt-8 max-w-fit min-w-fit text-left relative rounded-lg
                                 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:shadow-lg
-                                ${index % 2 === 0 ? "float-left rounded-l-lg" : "float-right rounded-r-lg"}
+                                ${index % 2 === 0 ? "float-left lg:rounded-l-lg" : "float-right lg:rounded-r-lg"}
                             `}>
-                                { index % 2 === 0 ? <img src={mapPictures.get(index+1)} alt="Volleyball" className="w-96 rounded-l-lg object-cover"/> : null}
+                                { index % 2 === 0 ? <img src={mapPictures.get(index+1)} alt="Volleyball" className="w-96 lg:rounded-l-lg rounded-lg object-cover"/> : null}
                                 <div className="p-4 w-80 text-black">
                                     <p className="font-semibold text-xl">
                                         {interest.title}
                                     </p>
-                                    <div className="pt-2 text-black">
+                                    <div className="pt-2 text-black mb-8 lg:mb-0">
                                         <ul className="list-disc pl-4">
                                             {interest.description.map(descriptionPart => {
                                                 return (
@@ -63,7 +63,7 @@ const OwnInterest = (props: ChildrenProps) => {
                                         : null
                                     }
                                 </div>
-                                { index % 2 === 1 ? <img src={mapPictures.get(index+1)} alt="Volleyball" className="w-96 rounded-r-lg object-cover"/> : null}
+                                { index % 2 === 1 ? <img src={mapPictures.get(index+1)} alt="Volleyball" className="w-96 lg:rounded-r-lg rounded-lg object-cover"/> : null}
                             </div>
                         )
                     })

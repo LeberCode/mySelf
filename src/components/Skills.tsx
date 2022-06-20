@@ -21,10 +21,13 @@ const SkillHeading = styled.p`
 `;
 
 const SkillWrapper = styled.div`
-    flex-wrap: wrap;
-    display: flex;
     margin: 6px 0;
     color: ${Colors.black}
+
+    @media (min-width: 1024p) {
+        display: flex;
+        flex-wrap: wrap;
+      }
 `;
 
 const SkillContent = styled.div`

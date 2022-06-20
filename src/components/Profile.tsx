@@ -9,6 +9,7 @@ import { Colors } from "../types/Colors";
 
 import data from "../assets/data/profileInfoData.json";
 import { SectionHeaderProps } from "../interfaces/sectionHeaderProps";
+import meProf from "../assets/images/meProf.jpg";
 
 const person: Person = data.person;
 const aboutLorem: About = data.aboutLorem;
@@ -40,9 +41,9 @@ const Profile = (props: ChildrenProps) => {
         // Wrapper
         <div className={props.styleHeader}>
             <SectionHeader {...sectionHeaderProps}/>
-            <div className="flex flex-row flex-grow py-8 text-left">
+            <div className="lg:flex flex-row flex-grow py-8 text-left">
                 {/* about */}
-                <div className="flex-1 px-4">
+                <div className="flex-1 p-4">
                     <div className="text-3xl pb-8">
                         About me
                     </div>
@@ -51,11 +52,11 @@ const Profile = (props: ChildrenProps) => {
                     </div>
                 </div>
                 {/* picture */}
-                <div className="flex-1 px-4">
-                    <div className="bg-myShadow hover:bg-meProf w-full h-full bg-cover bg-center rounded-lg shadow-md shadow-signal transition duration-500 ease-in-out transform"/>
+                <div className="flex-1 p-4">
+                        <img src={meProf} className="rounded-lg shadow-md shadow-signal" />
                 </div>
                 {/* info */}
-                <div className="flex-1 px-4">
+                <div className="flex-1 p-4">
                     <div className="text-3xl pb-8">
                         Info
                     </div>

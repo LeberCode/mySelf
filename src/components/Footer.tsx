@@ -13,12 +13,12 @@ const Contact = (props: ChildrenProps) => {
     return (
         <div className={props.styleHeader}>
             <SectionHeader {...sectionHeaderProps}/>
-            <div className="flex flex-row justify-around text-left p-4 text-black">
+            <div className="lg:flex flex-row justify-around text-left p-4 text-black">
                 <div>
-                    <p className="font-semibold text-xl mb-12">
+                    <p className="font-semibold text-xl lg:mb-12 mb-4">
                         Me:
                     </p>
-                    <div className='text-signal '>
+                    <div className='text-signal mb-8 lg:mb-0'>
                         <div className="mb-6">
                             <a href='https://www.linkedin.com/in/robin-leber-352b921a1/' target="_blank" rel="noreferrer">
                                 <LinkedIn />
@@ -34,7 +34,7 @@ const Contact = (props: ChildrenProps) => {
                     </div>
                 </div>
                 <div>
-                    <p className="font-semibold text-xl mb-12">
+                    <p className="font-semibold text-xl lg:mb-12 mb-4">
                         Acknowledgements:
                     </p>
                     <div className='text-signal '>

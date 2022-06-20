@@ -63,7 +63,7 @@ const Content = styled.div<{primary: boolean}>`
 const App = () => {
 
   return (
-    <Wrapper>
+    <div>
       <Header/>
       <ContentWrapper>
         <Content primary>
@@ -82,7 +82,7 @@ const App = () => {
           <Contact {...contactProps}/>
         </Content>
       </ContentWrapper>
-    </Wrapper>
+    </div>
   );
 }
 
