@@ -5,7 +5,7 @@ module.exports = {
       backgroundImage: {
         'meSport': "url('./assets/images/meSport.jpeg')",
         'heroForHeader': "url('./assets/images/groot.jpg')",
-        'heroForFooter': "url('./assets/images/grootFooter.jpg')",
+        'heroForMobile': "url('./assets/images/grootMobile.jpg')",
         'meProf': "url('./assets/images/meProf.jpg')",
         'myShadow': "url('./assets/images/myShadow2.jpg')"
       },
