@@ -36,7 +36,7 @@ const OwnInterest = (props: ChildrenProps) => {
                                 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:shadow-lg
                                 ${index % 2 === 0 ? "float-left lg:rounded-l-lg" : "float-right lg:rounded-r-lg"}
                             `}>
-                                { index % 2 === 0 ? <img src={mapPictures.get(index+1)} alt="Volleyball" className="w-96 lg:rounded-l-lg rounded-lg object-cover"/> : null}
+                                <img src={mapPictures.get(index+1)} alt="Volleyball" className={`w-96 lg:rounded-l-lg rounded-lg object-cover order-first ${index % 2 === 0 ? "lg:order-first" : "lg:order-last"}`}/>
                                 <div className="p-4 w-80 text-black">
                                     <p className="font-semibold text-xl">
                                         {interest.title}
@@ -63,7 +63,6 @@ const OwnInterest = (props: ChildrenProps) => {
                                         : null
                                     }
                                 </div>
-                                { index % 2 === 1 ? <img src={mapPictures.get(index+1)} alt="Volleyball" className="w-96 lg:rounded-r-lg rounded-lg object-cover"/> : null}
                             </div>
                         )
                     })
