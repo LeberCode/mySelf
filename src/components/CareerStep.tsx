@@ -5,7 +5,7 @@ import { shortenLink } from "../functions/shortenLink";
 const CareerStep = (props: Career) => {
     return (
         <div className="lg:flex flex-row text-left my-6 p-4 text-black rounded-md hover:shadow-customWhite">
-            <div className="basis-1/2 flex flex-col">
+            <div className="basis-1/2 flex flex-col border-y-2 border-white lg:border-none">
                 <p className="text-lg font-semibold">
                     {props.company}
                 </p>

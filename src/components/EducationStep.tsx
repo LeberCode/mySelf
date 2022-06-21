@@ -5,8 +5,8 @@ import { shortenLink } from "../functions/shortenLink";
 
 const EducationStep = (props: Education) => {
     return (
-        <div className="lg:flex flex-row text-left my-6 p-4 text-black rounded-md hover:shadow-customWhite">
-            <div className="basis-1/2 flex flex-col">
+        <div className="lg:flex flex-row text-left my-6 p-4 text-black rounded-md hover:shadow-customWhite divide-y-4 divide-white lg:divide-none">
+            <div className="basis-1/2 flex flex-col shadow-b-lg">
                 <p className="text-lg font-semibold">
                     {props.institution}
                 </p>
