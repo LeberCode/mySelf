@@ -16,7 +16,8 @@ module.exports = {
         'secondBackground': "#EAEAEA", // 2. Hintergrundfarbe
       },
       boxShadow: {
-        'customWhite': "0px 0px 10px 5px rgba(255, 255, 255, 0.9)"
+        'customWhite': "0px 0px 10px 5px rgba(255, 255, 255, 0.9)",
+        'secondBackground': "0px 0px 10px 5px #EAEAEA"
       }
     },
   },
