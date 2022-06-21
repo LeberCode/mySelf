@@ -4,8 +4,8 @@ import { shortenLink } from "../functions/shortenLink";
 
 const CareerStep = (props: Career) => {
     return (
-        <div className="lg:flex flex-row text-left my-6 p-4 text-black rounded-md hover:shadow-customWhite">
-            <div className="basis-1/2 flex flex-col border-y-2 border-white lg:border-none">
+        <div className="lg:flex flex-row text-left my-6 p-4 text-black rounded-md hover:shadow-customWhite divide-y-2 divide-white lg:divide-none">
+            <div className="basis-1/2 flex flex-col mb-1 lg:mb-0">
                 <p className="text-lg font-semibold">
                     {props.company}
                 </p>
@@ -14,7 +14,7 @@ const CareerStep = (props: Career) => {
                 </p>
             </div>
             <div className="basis-1/2 flex flex-col">
-                <p className="text-lg font-semibold">
+                <p className="text-lg font-semibold mt-1 lg:mt-0">
                     {props.employmentType} {props.profession === "" ? "" : `: ${props.profession}`}
                 </p>
                 <p className="italic text-sm">

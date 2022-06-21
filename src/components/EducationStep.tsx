@@ -5,8 +5,8 @@ import { shortenLink } from "../functions/shortenLink";
 
 const EducationStep = (props: Education) => {
     return (
-        <div className="lg:flex flex-row text-left my-6 p-4 text-black rounded-md hover:shadow-customWhite divide-y-4 divide-white lg:divide-none">
-            <div className="basis-1/2 flex flex-col shadow-b-lg">
+        <div className="lg:flex flex-row text-left my-6 p-4 text-black rounded-md hover:shadow-customWhite divide-y-2 divide-white lg:divide-none">
+            <div className="basis-1/2 flex flex-col shadow-b-lg lg:mb-0 mb-1">
                 <p className="text-lg font-semibold">
                     {props.institution}
                 </p>
@@ -15,7 +15,7 @@ const EducationStep = (props: Education) => {
                 </p>
             </div>
             <div className="basis-1/2 flex flex-col">
-                <p className="text-lg font-semibold">
+                <p className="text-lg font-semibold lg:mt-0 mt-1">
                     {props.degree}
                 </p>
                 <p className="italic">
