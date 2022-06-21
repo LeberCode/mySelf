@@ -10,9 +10,9 @@ import { Colors } from "../types/Colors";
 import data from "../assets/data/profileInfoData.json";
 import { SectionHeaderProps } from "../interfaces/sectionHeaderProps";
 import meProf from "../assets/images/meProf.jpg";
+import { LinkedIn, People } from "@material-ui/icons";
 
 const person: Person = data.person;
-const aboutLorem: About = data.aboutLorem;
 const aboutMe: About = data.aboutMe;
 
 const getAge = (dateString: string) => {
@@ -29,7 +29,6 @@ const getAge = (dateString: string) => {
 
 
 const Profile = (props: ChildrenProps) => {
-    const [about, setAbout] = useState(false);
 
     const sectionHeaderProps: SectionHeaderProps = {
         title: props.title,
@@ -41,44 +40,60 @@ const Profile = (props: ChildrenProps) => {
         // Wrapper
         <div className={props.styleHeader}>
             <SectionHeader {...sectionHeaderProps}/>
-            <div className="lg:flex flex-row flex-grow py-8 text-left">
+            <div className="flex lg:flex-row flex-col flex-grow py-8 text-left">
                 {/* about */}
                 <div className="flex-1 p-4">
                     <div className="text-3xl pb-8">
                         About me
                     </div>
-                    <div className="text-black bg-white rounded-lg p-2 min-w-fit shadow-md shadow-signal" onMouseOver={() => setAbout(!about)} onMouseLeave={() => setAbout(!about)}>
-                        {about ? aboutMe: aboutLorem}
+                    <div className="text-black bg-white rounded-lg p-2 min-w-fit shadow-md shadow-signal">
+                        {aboutMe}
                     </div>
                 </div>
                 {/* picture */}
-                <div className="flex-1 p-4">
+                <div className="flex-1 p-4 order-first lg:order-none">
                         <img src={meProf} className="rounded-lg shadow-md shadow-signal" />
                 </div>
                 {/* info */}
-                <div className="flex-1 p-4">
+                <div className="flex-1 p-4 shrink">
                     <div className="text-3xl pb-8">
                         Info
                     </div>
-                    <div className="text-black bg-white rounded-lg p-2 max-w-fit shadow-md shadow-signal rotate-180 transition hover:rotate-0 duration-300">
-                        <p className="font-semibold">
-                            Name:
-                        </p>
-                        <p className="pb-4">
-                            {person.firstName} {person.lastName}
-                        </p>
-                        <p className="font-semibold">
-                            Age:
-                        </p>
-                        <p className="pb-4">
-                            {getAge(person.dateOfBirth)} years
-                        </p>
-                        <p className="font-semibold">
-                            Location:
-                        </p>
-                        <p>
-                            {person.city}, {person.country}
-                        </p>
+                    <div className="flex justify-between">
+                        <div className="text-black bg-white rounded-lg p-2 max-w-fit shadow-md shadow-signal">
+                            <p className="font-semibold">
+                                Name:
+                            </p>
+                            <p className="pb-4">
+                                {person.firstName} {person.lastName}
+                            </p>
+                            <p className="font-semibold">
+                                Age:
+                            </p>
+                            <p className="pb-4">
+                                {getAge(person.dateOfBirth)} years
+                            </p>
+                            <p className="font-semibold">
+                                Location:
+                            </p>
+                            <p>
+                                {person.city}, {person.country}
+                            </p>
+                        </div>
+                        <div className='text-signal mb-8 lg:mb-0'>
+                            <div className="mb-6">
+                                <a href='https://www.linkedin.com/in/robin-leber-352b921a1/' target="_blank" rel="noreferrer">
+                                    <LinkedIn />
+                                    LinkedIn
+                                </a>
+                            </div>
+                            <div>
+                                <a href='https://www.xing.com/profile/Robin_Leber4/cv' target="_blank" rel="noreferrer">
+                                    <People />
+                                    Xing
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
