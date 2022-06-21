@@ -23,7 +23,7 @@ const CareerPath = (props: ChildrenProps) => {
     return(
         <div className={props.styleHeader}>
             <SectionHeader {... sectionHeaderProps}/>
-            <div>
+            <div className="px-2">
                 <p className="text-3xl font-light text-left my-4">
                     Education
                 </p>
@@ -35,7 +35,7 @@ const CareerPath = (props: ChildrenProps) => {
                     })
                 }
             </div>
-            <div>
+            <div className="px-2">
                 <p className="text-3xl font-light text-left my-4">
                     Career
                 </p>

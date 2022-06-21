@@ -18,6 +18,7 @@ const SkillHeading = styled.p`
     text-align: left;
     font-size: 32px;
     margin: 12px 0;
+    font-weight: 300;
 `;
 
 const SkillWrapper = styled.div`
@@ -51,7 +52,7 @@ const Skills = (props: ChildrenProps) => {
     return (
         <div className={props.styleHeader}>
             <SectionHeader {...sectionHeaderProps} />
-            <div>
+            <div className="px-2">
                 <SkillHeading>Coding Skills</SkillHeading>
                 <SkillWrapper>
                     {codingSkills.map((skill, i) => {
@@ -66,7 +67,7 @@ const Skills = (props: ChildrenProps) => {
                     })}
                 </SkillWrapper>
             </div>
-            <div>
+            <div className="px-2">
                 <SkillHeading>Other Skills</SkillHeading>
                 <SkillWrapper>
                     {otherSkills.map((skill, i) => {
@@ -81,8 +82,8 @@ const Skills = (props: ChildrenProps) => {
                     })}
                 </SkillWrapper>
             </div>
-            <div>
-                <SkillHeading>Language</SkillHeading>
+            <div className="px-2">
+                <SkillHeading>Languages</SkillHeading>
                 <SkillWrapper>
                     {languagelSkills.map((skill, i) => {
                         return(
@@ -96,7 +97,7 @@ const Skills = (props: ChildrenProps) => {
                     })}
                 </SkillWrapper>
             </div>
-            <div>
+            <div className="px-2">
                 <SkillHeading>Social Skills</SkillHeading>
                 <SkillWrapper>
                     {socialSkills.map((skill, i) => {

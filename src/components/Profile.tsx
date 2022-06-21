@@ -40,10 +40,10 @@ const Profile = (props: ChildrenProps) => {
         // Wrapper
         <div className={props.styleHeader}>
             <SectionHeader {...sectionHeaderProps}/>
-            <div className="flex lg:flex-row flex-col flex-grow py-8 text-left">
+            <div className="flex lg:flex-row flex-col flex-grow py-4 px-2 text-left">
                 {/* about */}
-                <div className="flex-1 p-4">
-                    <div className="text-3xl pb-8">
+                <div className="flex-1 p-2">
+                    <div className="text-3xl font-light pb-8">
                         About me
                     </div>
                     <div className="text-black bg-white rounded-lg p-2 min-w-fit shadow-md shadow-signal">
@@ -56,7 +56,7 @@ const Profile = (props: ChildrenProps) => {
                 </div>
                 {/* info */}
                 <div className="flex-1 p-4 shrink">
-                    <div className="text-3xl pb-8">
+                    <div className="text-3xl font-light pb-8">
                         Info
                     </div>
                     <div className="flex justify-between">
