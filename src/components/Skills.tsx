@@ -22,9 +22,9 @@ const SkillHeading = styled.p`
 
 const SkillWrapper = styled.div`
     margin: 6px 0;
-    color: ${Colors.black}
+    color: ${Colors.black};
 
-    @media (min-width: 1024p) {
+    @media (min-width: 1024px) {
         display: flex;
         flex-wrap: wrap;
       }
