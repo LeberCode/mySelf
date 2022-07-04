@@ -46,7 +46,7 @@ const Profile = (props: ChildrenProps) => {
                     <div className="text-3xl font-light pb-8">
                         About me
                     </div>
-                    <div className="text-black bg-white rounded-lg p-2 min-w-fit shadow-secondBackground">
+                    <div className="text-black bg-white rounded-lg p-2 min-w-fit">
                         {aboutMe}
                     </div>
                 </div>
@@ -55,12 +55,12 @@ const Profile = (props: ChildrenProps) => {
                         <img src={meProf} className="rounded-lg shadow-secondBackground" />
                 </div>
                 {/* info */}
-                <div className="flex-1 p-4 shrink">
+                <div className="flex-1 p-2 shrink">
                     <div className="text-3xl font-light pb-8">
                         Info
                     </div>
                     <div className="flex justify-between">
-                        <div className="text-black bg-white rounded-lg p-2 max-w-fit shadow-secondBackground">
+                        <div className="text-black bg-white rounded-lg p-2 max-w-fit">
                             <p className="font-semibold">
                                 Name:
                             </p>
@@ -80,7 +80,7 @@ const Profile = (props: ChildrenProps) => {
                                 {person.city}, {person.country}
                             </p>
                         </div>
-                        <div className='text-signal mb-8 lg:mb-0 p-2 px-8 rounded-lg shadow-secondBackground text-center'>
+                        <div className='text-signal mb-8 lg:mb-0 p-2 px-8 rounded-lg text-center'>
                             <div className="mb-6">
                                 <a href='https://www.linkedin.com/in/robin-leber-352b921a1/' target="_blank" rel="noreferrer">
                                     <LinkedIn />

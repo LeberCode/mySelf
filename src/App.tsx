@@ -17,31 +17,31 @@ const Wrapper = styled.div`
   overflow-x: scroll;
 `
 let profileProps: ChildrenProps={
-  styleHeader:"lg:mx-64 md:mx-6 mx-2 divide-y-8 divide-signal",
+  styleHeader:"xl:mx-48 lg:mx-6 mx-2 divide-y-8 divide-signal",
   title: quotesData.quotes[0].section,
   quote: quotesData.quotes[0].quote,
   author: quotesData.quotes[0].author,
 }
 let careerProps: ChildrenProps={
-  styleHeader:"lg:mx-64 md:mx-6 mx-2 divide-y-8 divide-signal",
+  styleHeader:"xl:mx-48 lg:mx-6 mx-2 divide-y-8 divide-signal",
   title: quotesData.quotes[1].section,
   quote: quotesData.quotes[1].quote,
   author: quotesData.quotes[1].author,
 }
 let skillsProps: ChildrenProps={
-  styleHeader:"lg:mx-64 md:mx-6 mx-2 divide-y-8 divide-signal",
+  styleHeader:"xl:mx-48 lg:mx-6 mx-2 divide-y-8 divide-signal",
   title: quotesData.quotes[2].section,
   quote: quotesData.quotes[2].quote,
   author: quotesData.quotes[2].author,
 }
 let interestProps: ChildrenProps={
-  styleHeader:"lg:mx-64 md:mx-6 mx-2 divide-y-8 divide-signal",
+  styleHeader:"xl:mx-48 lg:mx-6 mx-2 divide-y-8 divide-signal",
   title: quotesData.quotes[3].section,
   quote: quotesData.quotes[3].quote,
   author: quotesData.quotes[3].author,
 }
 let contactProps: ChildrenProps={
-  styleHeader:"lg:mx-64 md:mx-6 mx-2 divide-y-8 divide-signal",
+  styleHeader:"xl:mx-48 lg:mx-6 mx-2 divide-y-8 divide-signal",
   title: quotesData.quotes[4].section,
   quote: quotesData.quotes[4].quote,
   author: quotesData.quotes[4].author,

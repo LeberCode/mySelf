@@ -213,5 +213,15 @@
         "name": "Azure Devops",
         "value": 4,
         "type": "coding"
+    },
+    {
+        "name": "Android",
+        "value": 2,
+        "type": "coding"
+    },
+    {
+        "name": "Swift",
+        "value": 2,
+        "type": "coding"
     }
 ]

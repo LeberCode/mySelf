@@ -15,7 +15,7 @@ const CareerStep = (props: Career) => {
             </div>
             <div className="basis-1/2 flex flex-col">
                 <p className="text-lg font-semibold mt-1 lg:mt-0">
-                    {props.employmentType} {props.profession === "" ? "" : `: ${props.profession}`}
+                    {props.employmentType}{props.profession === "" ? "" : `: ${props.profession}`}
                 </p>
                 <p className="italic text-sm">
                     {props.keywords.map((keyword, i) => {
