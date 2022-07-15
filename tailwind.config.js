@@ -20,6 +20,11 @@ module.exports = {
         'secondBackground': "0px 0px 10px 5px #EAEAEA"
       }
     },
+    screens: {
+      'lg': '1024px',
+      'xl': '1280px',
+      '4k': '2560px'
+    }
   },
   plugins: [],
 }

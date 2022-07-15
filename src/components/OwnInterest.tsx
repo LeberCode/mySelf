@@ -32,14 +32,14 @@ const OwnInterest = (props: ChildrenProps) => {
                     interests.map( (interest:Interest, index ) => {
                         return(
                             <div className={`
-                                lg:flex lg:h-80 h-fit bg-white m-4 mt-8 max-w-fit min-w-fit text-left relative rounded-lg mx-auto lg:mx-0
+                                lg:flex lg:h-80 h-fit bg-white m-4 mt-8 max-w-fit min-w-fit text-left relative rounded-lg mx-auto lg:mx-2
                                 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:shadow-lg
-                                ${index % 2 === 0 ? "lg:float-left lg:rounded-l-lg" : "lg:float-right lg:rounded-r-lg"}
+                                ${index % 2 === 0 ? "lg:float-left lg:rounded-l-lg" : "lg:float-right lg:rounded-r-lg 4k:float-left"}
                             `}>
                                 <img src={mapPictures.get(index+1)} alt="Volleyball"
                                     className={
                                         `w-96 object-cover order-first rounded-t-lg
-                                        ${index % 2 === 0 ? "lg:order-first lg:rounded-none lg:rounded-l-lg" : "lg:order-last lg:rounded-none lg:rounded-r-lg"}`
+                                        ${index % 2 === 0 ? "lg:order-first lg:rounded-none lg:rounded-l-lg" : "lg:order-last lg:rounded-none lg:rounded-r-lg 4k:order-first 4k:rounded-none 4k:rounded-l-lg"}`
                                     }
                                 />
                                 <div className="p-4 w-80 text-black">
@@ -60,8 +60,8 @@ const OwnInterest = (props: ChildrenProps) => {
                                     {
                                         interest.link ? 
                                         <div className="text-signal absolute bottom-0 pb-2">
-                                            <Link className="pb-1 mr-1"/>
                                             <a href={interest.link} target="_blank" rel="noreferrer">
+                                                <Link className="pb-1 mr-1"/>
                                                 {interest.link}
                                             </a>
                                         </div>
