@@ -1,11 +1,7 @@
-import React, {useState} from "react";
-import styled from "styled-components";
-
 import SectionHeader from "./SectionHeader";
 
 import { Person, About } from "../types/Profile"
 import { ChildrenProps } from '../interfaces/childrenProps';
-import { Colors } from "../types/Colors";
 
 import data from "../assets/data/profileInfoData.json";
 import { SectionHeaderProps } from "../interfaces/sectionHeaderProps";
