@@ -4,9 +4,9 @@ import { SectionHeaderProps } from "../interfaces/sectionHeaderProps";
 const SectionHeader = (props: SectionHeaderProps) => {
     return(
         <div>
-            <div className="text-5xl">
+            <h2 className="text-5xl">
                 {props.title}
-            </div>
+            </h2>
             <div className="text-black py-8">
                 <p className="italic">"{props.quote}"</p> - {props.author}
             </div>

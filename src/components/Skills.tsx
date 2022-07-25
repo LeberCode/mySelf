@@ -55,7 +55,7 @@ const Skills = (props: ChildrenProps) => {
             <div className="px-2">
                 <SkillHeading>Coding Skills</SkillHeading>
                 <SkillWrapper>
-                    {codingSkills.map((skill, i) => {
+                    {codingSkills.map((skill) => {
                         return(
                             <SkillContent>
                                 <div className="flex basis-1/2">
@@ -70,7 +70,7 @@ const Skills = (props: ChildrenProps) => {
             <div className="px-2">
                 <SkillHeading>Other Skills</SkillHeading>
                 <SkillWrapper>
-                    {otherSkills.map((skill, i) => {
+                    {otherSkills.map((skill) => {
                         return(
                             <SkillContent>
                                 <div className="flex basis-1/2">
@@ -85,7 +85,7 @@ const Skills = (props: ChildrenProps) => {
             <div className="px-2">
                 <SkillHeading>Languages</SkillHeading>
                 <SkillWrapper>
-                    {languagelSkills.map((skill, i) => {
+                    {languagelSkills.map((skill) => {
                         return(
                             <SkillContent>
                                 <div className="flex basis-1/2">
@@ -100,7 +100,7 @@ const Skills = (props: ChildrenProps) => {
             <div className="px-2">
                 <SkillHeading>Social Skills</SkillHeading>
                 <SkillWrapper>
-                    {socialSkills.map((skill, i) => {
+                    {socialSkills.map((skill) => {
                         return(
                             <SkillContent>
                                 <div className="flex basis-1/2">
