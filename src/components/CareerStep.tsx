@@ -4,7 +4,7 @@ import { shortenLink } from "../functions/shortenLink";
 
 const CareerStep = (props: Career) => {
     return (
-        <div className="lg:flex flex-row text-left my-6 p-4 text-black rounded-md hover:shadow-customWhite divide-y-2 divide-white lg:divide-none">
+        <div className="lg:flex flex-row text-left lg:my-6 my-12 p-4 text-black rounded-md lg:shadow-none shadow-customWhite lg:hover:shadow-customWhite divide-y-2 divide-white lg:divide-none">
             <div className="basis-1/2 flex flex-col mb-1 lg:mb-0">
                 <p className="text-lg font-semibold">
                     {props.company}
@@ -24,16 +24,16 @@ const CareerStep = (props: Career) => {
                         return returnVal;
                     })}
                 </p>
-                <p className="py-2">
+                <p className="py-2 text-justify">
                     {props.description}
                 </p>
                 <div className="flex divide-x-2 divide-signal text-signal">
-                    <div className="pr-2">
-                        <PinDrop className="pb-1 mr-1"/>
+                    <div className="pr-2 flex items-center">
+                        <PinDrop className="mr-1"/>
                         {props.location.city}, {props.location.country} {props.remote ? "(remote)": null}
                     </div>
-                    <div className="pl-2">
-                        <Link className="pb-1 mr-1"/>
+                    <div className="pl-2 flex items-center">
+                        <Link className="mr-1"/>
                         <a href={props.link} target="_blank" rel="noreferrer">
                             {shortenLink(props.link)}
                         </a>
