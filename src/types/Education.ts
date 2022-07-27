@@ -7,6 +7,7 @@ export type Education = {
     periodEnd: string,
     description: string,
     link: string,
+    link2: string,
     logo: string,
 }
 
