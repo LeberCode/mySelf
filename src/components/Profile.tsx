@@ -42,7 +42,7 @@ const Profile = (props: ChildrenProps) => {
                     <div className="text-3xl font-light pb-8">
                         About me
                     </div>
-                    <div className="text-black bg-white rounded-lg p-2 min-w-fit">
+                    <div className="text-black bg-white rounded-lg p-2 min-w-fit text-justify">
                         {aboutMe}
                     </div>
                 </div>
