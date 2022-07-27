@@ -23,10 +23,10 @@ const Header = () => {
                     </Text>
                 </div>
                 <div
-                    className="absolute bottom-0 right-8 w-20 h-12 bg-white text-center rounded-t-sm cursor-pointer"
+                    className="absolute bottom-0 right-8 w-20 h-10 bg-white text-center rounded-t-sm cursor-pointer"
                     onClick={() => window.scrollTo({top: window.innerHeight, behavior: "smooth"})}
                 >
-                    <ExpandMore className="text-signal animate-bounce mt-2" fontSize="large"/>
+                    <ExpandMore className="text-signal animate-bounce mt-1" fontSize="large"/>
                 </div>
             </div>
         </div>
