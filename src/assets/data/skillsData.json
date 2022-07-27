@@ -55,16 +55,6 @@
         "type": "social"
     },
     {
-        "name": "Having fun",
-        "value": 5,
-        "type": "social"
-    },
-    {
-        "name": "Volleyball",
-        "value": 5,
-        "type": "social"
-    },
-    {
         "name": "Disco Fox",
         "value": 3,
         "type": "social"
@@ -223,5 +213,30 @@
         "name": "Swift",
         "value": 2,
         "type": "coding"
+    },
+    {
+        "name": "Independence",
+        "value": 5,
+        "type": "social"
+    },
+    {
+        "name": "Responsibility",
+        "value": 5,
+        "type": "social"
+    },
+    {
+        "name": "Having fun",
+        "value": 5,
+        "type": "social"
+    },
+    {
+        "name": "Volleyball",
+        "value": 5,
+        "type": "social"
+    },
+    {
+        "name": "Schwäbisch",
+        "value": 3,
+        "type": "lang"
     }
 ]
