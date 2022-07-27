@@ -21,13 +21,13 @@ const Contact = (props: ChildrenProps) => {
                     <div className='text-signal mb-8 lg:mb-0'>
                         <div className="mb-6">
                             <a href='https://www.linkedin.com/in/robin-leber-352b921a1/' target="_blank" rel="noreferrer">
-                                <LinkedIn />
+                                <LinkedIn className='mr-1'/>
                                 LinkedIn
                             </a>
                         </div>
                         <div>
                             <a href='https://www.xing.com/profile/Robin_Leber4/cv' target="_blank" rel="noreferrer">
-                                <People />
+                                <People className='mr-1'/>
                                 Xing
                             </a>
                         </div>
@@ -40,13 +40,13 @@ const Contact = (props: ChildrenProps) => {
                     <div className='text-signal '>
                         <div className="mb-6">
                             <a href='http://www.pascalvangemert.nl/' target="_blank" rel="noreferrer">
-                                <Laptop />
+                                <Laptop className='mr-1'/>
                                 Pascal Vangemert
                             </a>
                         </div>
                         <div>
                             <a href='https://www.pexels.com/de-de/@introspectivedsgn/' target="_blank" rel="noreferrer">
-                                <PhotoCamera />
+                                <PhotoCamera className='mr-1'/>
                                 Erik Mclean
                             </a>
                         </div>
