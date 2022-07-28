@@ -27,7 +27,7 @@ const CareerStep = (props: Career) => {
                 <p className="py-2 text-justify">
                     {props.description}
                 </p>
-                <div className="flex divide-x-2 divide-signal text-signal">
+                <div className="flex divide-x-2 divide-signal text-signal overflow-hidden">
                     <div className="pr-2 flex items-center">
                         <PinDrop className="mr-1"/>
                         {props.location.city}, {props.location.country} {props.remote ? "(remote)": null}
