@@ -27,6 +27,24 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title> Robin Leber | a resume </title>
+    <script>
+      (function(d, s, id, w, f){
+          w[f] = w[f] || function() {
+              (w[f].q = w[f].q || []).push(arguments)
+          };
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)){ return; }
+          js = d.createElement(s); js.id = id;
+          js.onload = function(){
+              // remote script has loaded
+          };
+          js.async = true;
+          js.src = "https://cdn.trackboxx.info/p/tracker.js";
+          fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'trackboxx-script', window, 'trackboxx'));
+      trackboxx('set', 'siteId', 'TB-21015213');
+      trackboxx('trackPageview');
+    </script>
   </head>
   <body>
     <noscript>I am an aspiring JavaScript software developer currently pursuing my Master's degree in Digital Business Engineering. With the combination of business and software, there are endless new possibilities to make the world a better place. I would like to contribute to that! With this website I would like to introduce myself to you.</noscript>
