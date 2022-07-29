@@ -39,10 +39,10 @@ const Profile = (props: ChildrenProps) => {
             <div className="flex lg:flex-row flex-col flex-grow py-4 px-2 text-left">
                 {/* about */}
                 <div className="flex-1 p-2">
-                    <div className="text-3xl font-light pb-8">
+                    <div className="text-3xl font-light pb-4">
                         About me
                     </div>
-                    <div className="text-black bg-white rounded-lg p-2 min-w-fit text-justify">
+                    <div className="text-black bg-white rounded-lg min-w-fit text-justify">
                         {aboutMe}
                     </div>
                 </div>
@@ -52,11 +52,11 @@ const Profile = (props: ChildrenProps) => {
                 </div>
                 {/* info */}
                 <div className="flex-1 p-2 shrink">
-                    <div className="text-3xl font-light pb-8">
+                    <div className="text-3xl font-light pb-4">
                         Info
                     </div>
                     <div className="flex justify-between">
-                        <div className="text-black bg-white rounded-lg p-2 max-w-fit">
+                        <div className="text-black bg-white rounded-lg max-w-fit">
                             <p className="font-semibold">
                                 Name:
                             </p>
@@ -76,7 +76,7 @@ const Profile = (props: ChildrenProps) => {
                                 {person.city}, {person.country}
                             </p>
                         </div>
-                        <div className='text-signal mb-8 lg:mb-0 p-2 px-8 rounded-lg text-center'>
+                        <div className='text-signal mb-8 lg:mb-0 px-8 rounded-lg text-center'>
                             <div className="mb-6">
                                 <a href='https://www.linkedin.com/in/robin-leber-352b921a1/' target="_blank" rel="noreferrer">
                                     <LinkedIn />
