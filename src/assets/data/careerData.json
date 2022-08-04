@@ -52,15 +52,31 @@
         "employmentType": "Internship",
         "company": "Pitch Club AG",
         "location": {
-            "city": "Frankfurt",
+            "city": "Reutlingen",
             "country": "Germany"
         },
         "remote": true,
-        "periodStart": "02/2021",
+        "periodStart": "03/2021",
         "periodEnd": "08/2021",
         "description": "Pitch Club provides HR software for developers that directly connects applicants with IT executives. Here I was able to apply my knowledge intensively, as I implemented a lot of frontend issues of this software by my own.",
         "keywords": ["JavaScript", "React", "Node", "Git"],
         "link": "https://thepitchclub.com/",
+        "logo": ""
+    },
+    {
+        "profession": "Software Developer",
+        "employmentType": "Working Student",
+        "company": "adesso SE",
+        "location": {
+            "city": "Reutlingen & Stuttgart",
+            "country": "Germany"
+        },
+        "remote": false,
+        "periodStart": "08/2022",
+        "periodEnd": "Present",
+        "description": "business. people. technology. I am very happy to start at adesso SE as a software developer. With an inspiring work environment, a challenging project and super nice colleagues, they offer me the perfect conditions to reach my next level. It is not without reason that adesso was awarded as best employer 2018 and 2020.",
+        "keywords": ["JavaScript", "Angular", "Node"],
+        "link": "https://www.adesso.de/de/",
         "logo": ""
     }
 ]
