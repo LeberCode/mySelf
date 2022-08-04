@@ -25,24 +25,24 @@ const CareerPath = (props: ChildrenProps) => {
             <SectionHeader {... sectionHeaderProps}/>
             <div className="px-2">
                 <p className="text-3xl font-light text-left my-4">
-                    Education
-                </p>
-                {
-                    education.slice(0).reverse().map((step) => {
-                        return (
-                            <EducationStep {...step}/>
-                        )
-                    })
-                }
-            </div>
-            <div className="px-2">
-                <p className="text-3xl font-light text-left my-4">
                     Career
                 </p>
                 {
                     career.slice(0).reverse().map((step) => {
                         return (
                             <CareerStep {...step}/>
+                        )
+                    })
+                }
+            </div>
+            <div className="px-2">
+                <p className="text-3xl font-light text-left my-4">
+                    Education
+                </p>
+                {
+                    education.slice(0).reverse().map((step) => {
+                        return (
+                            <EducationStep {...step}/>
                         )
                     })
                 }
