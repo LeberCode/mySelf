@@ -1,29 +1,29 @@
 {
-    "quotes": [
-        {
-            "section": "Profile",
-            "quote": "I built this all by myself using React and TypeScript.",
-            "author": "Robin Leber"
-        },
-        {
-            "section": "Career",
-            "quote": "If you really look closely, most overnight successes took a long time.",
-            "author": "Steve Jobs"
-        },
-        {
-            "section": "Skills",
-            "quote": "Whether you think you can, or you think you can't - you are right.",
-            "author": "Henry Ford"
-        },
-        {
-            "section": "Interests",
-            "quote": "Love the life you live. Live the life you love.",
-            "author": "Bob Marley"
-        },
-        {
-            "section": "Contact",
-            "quote": "The only thing worse than being talked about is not being talked about.",
-            "author": "Oscar Wilde"
-        }
-    ]
+  "quotes": [
+    {
+      "section": "Profile",
+      "quote": "I built this all by myself using React and TypeScript.",
+      "author": "Robin Leber"
+    },
+    {
+      "section": "Career",
+      "quote": "If you really look closely, most overnight successes took a long time.",
+      "author": "Steve Jobs"
+    },
+    {
+      "section": "Skills",
+      "quote": "Whether you think you can, or you think you can't - you are right.",
+      "author": "Henry Ford"
+    },
+    {
+      "section": "Interests",
+      "quote": "Love the life you live. Live the life you love.",
+      "author": "Bob Marley"
+    },
+    {
+      "section": "Contact",
+      "quote": "The only thing worse than being talked about is not being talked about.",
+      "author": "Oscar Wilde"
+    }
+  ]
 }

@@ -1,10 +1,10 @@
 {
-    "person": {
-        "lastName": "Leber",
-        "firstName": "Robin",
-        "dateOfBirth": "1998-05-23",
-        "city": "Rottenburg",
-        "country": "Germany"
-    },
-    "aboutMe": "I am an aspiring JavaScript software developer currently pursuing my Master's degree in Digital Business Engineering. With the great combination of business and software, there are endless new possibilities to make the world a better place. I would like to contribute to that! With this website I would like to introduce myself to you."
+  "person": {
+    "lastName": "Leber",
+    "firstName": "Robin",
+    "dateOfBirth": "1998-05-23",
+    "city": "Rottenburg",
+    "country": "Germany"
+  },
+  "aboutMe": "I am an aspiring JavaScript software developer currently pursuing my Master's degree in Digital Business Engineering. With the great combination of business and software, there are endless new possibilities to make the world a better place. I would like to contribute to that! With this website I would like to introduce myself to you."
 }
