@@ -55,16 +55,6 @@ const Contact = (props: ChildrenProps) => {
                 Pascal Vangemert
               </a>
             </div>
-            <div>
-              <a
-                href="https://www.pexels.com/de-de/@introspectivedsgn/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <PhotoCamera className="mr-1" />
-                Erik Mclean
-              </a>
-            </div>
           </div>
         </div>
       </div>
