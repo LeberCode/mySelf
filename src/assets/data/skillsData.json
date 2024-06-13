@@ -16,7 +16,7 @@
   },
   {
     "name": "Photography",
-    "value": 3,
+    "value": 2,
     "type": "other"
   },
   {
@@ -26,17 +26,17 @@
   },
   {
     "name": "Graphics",
-    "value": 4,
+    "value": 3,
     "type": "other"
   },
   {
     "name": "Gimp",
-    "value": 4,
+    "value": 3,
     "type": "other"
   },
   {
     "name": "Latex",
-    "value": 4,
+    "value": 3,
     "type": "other"
   },
   {
@@ -81,7 +81,7 @@
   },
   {
     "name": "Angular",
-    "value": 3,
+    "value": 2,
     "type": "coding"
   },
   {
@@ -90,23 +90,18 @@
     "type": "coding"
   },
   {
-    "name": "Gatsby.js",
-    "value": 3,
-    "type": "coding"
-  },
-  {
     "name": "Tailwind CSS",
-    "value": 4,
+    "value": 3,
     "type": "coding"
   },
   {
     "name": "Python",
-    "value": 3,
+    "value": 2,
     "type": "coding"
   },
   {
     "name": "C#",
-    "value": 3,
+    "value": 2,
     "type": "coding"
   },
   {
@@ -140,11 +135,6 @@
     "type": "coding"
   },
   {
-    "name": "MongoDB",
-    "value": 3,
-    "type": "coding"
-  },
-  {
     "name": "HTML",
     "value": 4,
     "type": "coding"
@@ -157,11 +147,6 @@
   {
     "name": "Java",
     "value": 3,
-    "type": "coding"
-  },
-  {
-    "name": "Bootstrap",
-    "value": 2,
     "type": "coding"
   },
   {
@@ -180,38 +165,18 @@
     "type": "coding"
   },
   {
-    "name": "JSON",
-    "value": 4,
-    "type": "coding"
-  },
-  {
-    "name": "Markdown",
-    "value": 2,
-    "type": "coding"
-  },
-  {
     "name": "Adobe XD",
-    "value": 4,
+    "value": 3,
     "type": "coding"
   },
   {
     "name": "Jira",
-    "value": 4,
+    "value": 3,
     "type": "coding"
   },
   {
     "name": "Azure Devops",
-    "value": 4,
-    "type": "coding"
-  },
-  {
-    "name": "Android",
-    "value": 2,
-    "type": "coding"
-  },
-  {
-    "name": "Swift",
-    "value": 2,
+    "value": 3,
     "type": "coding"
   },
   {

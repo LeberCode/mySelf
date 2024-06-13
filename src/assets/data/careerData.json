@@ -10,7 +10,7 @@
     "remote": false,
     "periodStart": "09/2016",
     "periodEnd": "08/2017",
-    "description": "I used the FSJ as an orientation year before my studies. By working with children, I developed personally and built up my independent and responsible working approach as well as my ability to work in a team.",
+    "description": "I used the FSJ as an orientation year before my studies. In this time I developed personally and built up my independent and responsible working approach as well as my ability to work in a team.",
     "keywords": ["Teamwork", "Taking responsibility", "Working with children"],
     "link": "https://tv-rottenburg.de/home",
     "logo": "https://www.volleyball-rottenburg.de/abteilung/media/cropped-TVR-Volleyball-Logo-Sqaure.png"
@@ -26,7 +26,7 @@
     "remote": false,
     "periodStart": "09/2019",
     "periodEnd": "02/2020",
-    "description": "tapio is a succesful start-up that establishes an innovative ecosystem for the wood industry. Here I got the great chance to develop myself technically in an inspiring start-up atmosphere. Within the scope of my own project, I was trained in all areas of frontend software development. Further, I even got to work in a scrum team where I learned a lot of its processes.",
+    "description": "tapio is a succesful start-up that establishes an innovative ecosystem for the wood industry. Here I got the great chance to develop myself technically in an inspiring atmosphere. Within the scope of my own project, I was trained in all areas of frontend software development. Further, I even got to work in a scrum team where I learned a lot of its processes.",
     "keywords": ["JavaScript", "React", "TypeScript", "Git", "Scrum"],
     "link": "https://www.tapio.one/de/",
     "logo": "https://avatars.githubusercontent.com/u/35800680?s=280&v=4"
@@ -58,7 +58,7 @@
     "remote": true,
     "periodStart": "03/2021",
     "periodEnd": "08/2021",
-    "description": "Pitch Club provides HR software for developers that directly connects applicants with IT executives. Here I was able to apply my knowledge intensively, as I implemented a lot of frontend issues of this software by my own.",
+    "description": "Pitch Club provides a HR software tool for developers that directly connects applicants with IT executives. Here I was able to apply my knowledge intensively, as I implemented a lot of frontend issues of this software by my own.",
     "keywords": ["JavaScript", "React", "Node", "Git"],
     "link": "https://thepitchclub.com/",
     "logo": "https://pcde.io/wp-content/uploads/2017/01/PCDE-Logo.png"
@@ -74,7 +74,7 @@
     "remote": false,
     "periodStart": "08/2022",
     "periodEnd": "present",
-    "description": "business. people. technology. I am very happy to start at adesso SE as a software developer. With an inspiring work environment, a challenging project and super nice colleagues, they offer me the perfect conditions to reach my next level. It is not without reason that adesso was awarded as best employer 2018 and 2020.",
+    "description": "business. people. technology. With an inspiring work environment, challenging projects and super nice colleagues, they offer me the perfect conditions to reach my next level. It is not without reason that adesso was awarded as best employer 2018 and 2020. I am also receiving a lot of support in the work on my master's thesis.",
     "keywords": ["JavaScript", "Angular", "Node"],
     "link": "https://www.adesso.de/de/",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Adesso_AG_logo.svg/1280px-Adesso_AG_logo.svg.png"

@@ -24,9 +24,9 @@
     },
     "periodStart": "10/2017",
     "periodEnd": "02/2022",
-    "description": "The combination of computer science and media makes this degree program exceedingly interesting. The study contents are taught through practical project and group work. On the one hand, the computer science contents are ranging from basic informatics to UI/UX design to data analysis. On the other hand, the medial courses such as photography, video and graphics offer a broad media insight and round off the study. My final thesis \"Interaktive Visualisierung und Verknüpfung von Sportdaten am Beispiel der Formel 1\" visualizes all drivers of the formula 1 and their achievements, you can see the result in the link below.",
+    "description": "The combination of computer science and media makes this degree program exceedingly interesting. The study contents are taught through practical project and group work. On the one hand, the computer science contents are ranging from basic informatics to UI/UX design to data analysis. On the other hand, the medial courses such as photography, video and graphics offer a broad media insight and round off the study. My final thesis \"Interaktive Visualisierung und Verknüpfung von Sportdaten am Beispiel der Formel 1\" visualizes all drivers of the formula 1 and their achievements.",
     "link": "https://www.inf.reutlingen-university.de/studium/medien-und-kommunikationsinformatik-mki/was-ist-mki/",
-    "link2": "http://formula1-viz-rl.herokuapp.com",
+    "link2": "",
     "logo": "https://upload.wikimedia.org/wikipedia/de/thumb/4/4a/HS_Reutlingen_Logo.svg/2560px-HS_Reutlingen_Logo.svg.png"
   },
   {
@@ -39,7 +39,7 @@
     },
     "periodStart": "03/2022",
     "periodEnd": "09/2024",
-    "description": "This is where my path into the (digital) business world begins. It is very exciting how I can apply my previous knowledge of software development as a basis for conceptualizing new business models. The perfect approach to work with digitalization.",
+    "description": "This is where my path into the (digital) business world begins. It is very exciting how I can apply my previous knowledge of software development as a basis for conceptualizing new business models. The perfect approach to work with digitalization. In my thesis I develop a messaging modeling tool in which you can deploy your architectures right away.",
     "link": "https://www.hhz.de/de/master/digital-business-engineering/",
     "link2": "",
     "logo": "https://www.dibuco.de/wp-content/uploads/2017/08/HHZ_Logo_Hochschulen.png"
