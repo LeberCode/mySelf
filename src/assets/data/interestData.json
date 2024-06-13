@@ -1,32 +1,33 @@
 [
-    {
-        "title": "Volleyball",
-        "description": [
-            "TV Rottenburg",
-            "Promotion to the 2nd Bundesliga South in 2022",
-            "Captain since 2021",
-            "Outside Hitter",
-            "Youth coach for 4 years"
-        ],
-        "link": "https://www.volleyball-rottenburg.de"
-    },
-    {
-        "title": "Fasnet",
-        "description": [
-            "Wengert Hexen 1999 e.V.",
-            "Sine 2017",
-            "Loving the community and the events throughout the year"
-        ],
-        "link": "https://wengert-hexen.de"
-    },
-    {
-        "title": "Travelling",
-        "description": [
-            "Norway | 2022 | 2 weeks | Highlights: Trolltunga and Preikestolen",
-            "Sweden | 2022 | 1 week | Highlights: Smögen and the search for moose",
-            "Turkey | 2022 | 10 days | Hiking the Lycian Way",
-            "Italy | 2021 | 1 week | Lake Como"
-        ],
-        "link": ""
-    }
+  {
+    "title": "Volleyball",
+    "description": [
+      "TV Rottenburg",
+      "2. Bundesliga Süd Runners-Up in 2024",
+      "Captain since 2021",
+      "Outside Hitter",
+      "Youth coach for 4 years"
+    ],
+    "link": "https://www.volleyball-rottenburg.de"
+  },
+  {
+    "title": "Fasnet",
+    "description": [
+      "Wengert Hexen 1999 e.V.",
+      "Since 2017",
+      "Loving the community and the events throughout the year"
+    ],
+    "link": "https://wengert-hexen.de"
+  },
+  {
+    "title": "Travelling",
+    "description": [
+      "Ireland | 2024 | The Kelly Way",
+      "Norway | 2022 | Trolltunga and Preikestolen",
+      "Sweden | 2022 | Smögen and the search for moose",
+      "Turkey | 2022 | The Lycian Way",
+      "Italy | 2021 | Lake Como"
+    ],
+    "link": ""
+  }
 ]
