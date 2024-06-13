@@ -32,7 +32,7 @@ const OwnInterest = (props: ChildrenProps) => {
           return (
             <div
               className={`
-                                lg:flex h-fit bg-white m-4 mt-8 max-w-fit min-w-fit text-left relative rounded-lg mx-auto lg:mx-2
+                                lg:flex h-fit bg-white m-4 mt-8 max-w-fit min-w-fit text-left relative rounded-lg mx-auto lg:mx-16
                                 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:shadow-lg
                                 ${
                                   index % 2 === 0
