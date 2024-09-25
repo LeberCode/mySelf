@@ -2,21 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
       content="Interactive resume for Robin Leber, an aspiring JavaScript software developer."
     />
-    <meta property='og:description'  content='Interactive resume for Robin Leber, an aspiring JavaScript software developer.'>
-    <meta property='og:image' content="%PUBLIC_URL%/grootShare.jpg"/>
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/grootShare.jpg" />
+    <meta
+      property="og:description"
+      content="Interactive resume for Robin Leber, an aspiring JavaScript software developer."
+    />
+    <meta property="og:image" content="/grootShare.jpg" />
+    <link rel="apple-touch-icon" href="/grootShare.jpg" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="manifest" href="/manifest.json" />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -26,28 +29,40 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title> Robin Leber | a resume </title>
+    <title>Robin Leber | a resume</title>
     <script>
-      (function(d, s, id, w, f){
-          w[f] = w[f] || function() {
-              (w[f].q = w[f].q || []).push(arguments)
+      (function (d, s, id, w, f) {
+        w[f] =
+          w[f] ||
+          function () {
+            (w[f].q = w[f].q || []).push(arguments);
           };
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)){ return; }
-          js = d.createElement(s); js.id = id;
-          js.onload = function(){
-              // remote script has loaded
-          };
-          js.async = true;
-          js.src = "https://cdn.trackboxx.info/p/tracker.js";
-          fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'trackboxx-script', window, 'trackboxx'));
-      trackboxx('set', 'siteId', 'TB-21015213');
-      trackboxx('trackPageview');
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {
+          return;
+        }
+        js = d.createElement(s);
+        js.id = id;
+        js.onload = function () {
+          // remote script has loaded
+        };
+        js.async = true;
+        js.src = "https://cdn.trackboxx.info/p/tracker.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "trackboxx-script", window, "trackboxx");
+      trackboxx("set", "siteId", "TB-21015213");
+      trackboxx("trackPageview");
     </script>
   </head>
   <body>
-    <noscript>I am an aspiring JavaScript software developer currently pursuing my Master's degree in Digital Business Engineering. With the combination of business and software, there are endless new possibilities to make the world a better place. I would like to contribute to that! With this website I would like to introduce myself to you.</noscript>
+    <noscript
+      >I am an aspiring JavaScript software developer currently pursuing my
+      Master's degree in Digital Business Engineering. With the combination of
+      business and software, there are endless new possibilities to make the
+      world a better place. I would like to contribute to that! With this
+      website I would like to introduce myself to you.</noscript
+    >
     <noscript>You need to enable JavaScript to run this website.</noscript>
     <div id="root"></div>
     <!--
