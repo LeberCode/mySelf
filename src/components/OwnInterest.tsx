@@ -5,7 +5,7 @@ import meSport from "../assets/images/meSport.jpeg";
 import meHexe from "../assets/images/27-Leber-schmuck.jpg";
 import meReisen3 from "../assets/images/Reisen3.jpeg";
 import ReisenTrolltunga from "../assets/images/ReisenTrolltunga.jpeg";
-import { Link } from "@material-ui/icons";
+import { Link } from "@mui/icons-material";
 import data from "../assets/data/interestData.json";
 import { Interest } from "../types/Interest";
 

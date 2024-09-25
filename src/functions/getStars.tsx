@@ -1,4 +1,4 @@
-import { Star, StarBorder } from "@material-ui/icons";
+import { Star, StarBorder } from "@mui/icons-material";
 
 const style = "flex basis-1/4 text-signal";
 

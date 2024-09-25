@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { ExpandMore } from "@material-ui/icons";
+import { ExpandMore } from "@mui/icons-material";
 
 const Text = styled.h1`
   padding: 0.5rem;

@@ -1,5 +1,5 @@
 import { Career } from "../types/Career";
-import { PinDrop, Link } from "@material-ui/icons";
+import { PinDrop, Link } from "@mui/icons-material";
 import { shortenLink } from "../functions/shortenLink";
 
 const CareerStep = (props: Career) => {

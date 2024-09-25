@@ -6,7 +6,7 @@ import { ChildrenProps } from "../interfaces/childrenProps";
 import data from "../assets/data/profileInfoData.json";
 import { SectionHeaderProps } from "../interfaces/sectionHeaderProps";
 import meProf from "../assets/images/meProf.jpg";
-import { LinkedIn, People } from "@material-ui/icons";
+import { LinkedIn, People } from "@mui/icons-material";
 
 const person: Person = data.person;
 const aboutMe: About = data.aboutMe;

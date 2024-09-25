@@ -1,6 +1,6 @@
 import React from "react";
 import { Education } from "../types/Education";
-import { PinDrop, Link } from "@material-ui/icons";
+import { PinDrop, Link } from "@mui/icons-material";
 import { shortenLink } from "../functions/shortenLink";
 
 const EducationStep = (props: Education) => {

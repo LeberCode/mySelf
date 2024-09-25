@@ -1,7 +1,7 @@
 import { ChildrenProps } from "../interfaces/childrenProps";
 import { SectionHeaderProps } from "../interfaces/sectionHeaderProps";
 import SectionHeader from "./SectionHeader";
-import { LinkedIn, Laptop, PhotoCamera, People } from "@material-ui/icons";
+import { LinkedIn, Laptop, PhotoCamera, People } from "@mui/icons-material";
 
 const Contact = (props: ChildrenProps) => {
   const sectionHeaderProps: SectionHeaderProps = {
