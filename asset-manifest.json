@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/mySelf/static/css/main.002830b6.css",
+    "main.js": "/mySelf/static/js/main.69298418.js",
+    "static/js/787.8e3391b0.chunk.js": "/mySelf/static/js/787.8e3391b0.chunk.js",
+    "static/media/meTitel.jpg": "/mySelf/static/media/meTitel.559990fe221a06414dda.jpg",
+    "static/media/Reisen3.jpeg": "/mySelf/static/media/Reisen3.40c068995c6044b77e69.jpeg",
+    "static/media/27-Leber-schmuck.jpg": "/mySelf/static/media/27-Leber-schmuck.45e659a24d8c077ce75f.jpg",
+    "static/media/meSport.jpeg": "/mySelf/static/media/meSport.9dc2853bc3bba5a08c06.jpeg",
+    "static/media/meProf.jpg": "/mySelf/static/media/meProf.f250136947682962fe1e.jpg",
+    "index.html": "/mySelf/index.html",
+    "main.002830b6.css.map": "/mySelf/static/css/main.002830b6.css.map",
+    "main.69298418.js.map": "/mySelf/static/js/main.69298418.js.map",
+    "787.8e3391b0.chunk.js.map": "/mySelf/static/js/787.8e3391b0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.002830b6.css",
+    "static/js/main.69298418.js"
+  ]
+}
