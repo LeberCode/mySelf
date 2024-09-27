@@ -45,13 +45,13 @@
         js = d.createElement(s);
         js.id = id;
         js.onload = function () {
-          // remote script has loaded
+          document.dispatchEvent(new Event("tbScriptLoaded"));
         };
         js.async = true;
         js.src = "https://cdn.trackboxx.info/p/tracker.js";
         fjs.parentNode.insertBefore(js, fjs);
       })(document, "script", "trackboxx-script", window, "trackboxx");
-      trackboxx("set", "siteId", "TB-21015213");
+      trackboxx("set", "siteId", "TB-87798632");
       trackboxx("trackPageview");
     </script>
   </head>
