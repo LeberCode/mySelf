@@ -73,9 +73,25 @@
     },
     "remote": false,
     "periodStart": "08/2022",
-    "periodEnd": "present",
+    "periodEnd": "11/2024",
     "description": "business. people. technology. With an inspiring work environment, challenging projects and super nice colleagues, they offer me the perfect conditions to reach my next level. It is not without reason that adesso was awarded as best employer 2018 and 2020. I am also receiving a lot of support in the work on my master's thesis.",
     "keywords": ["JavaScript", "Angular", "Node"],
+    "link": "https://www.adesso.de/de/",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Adesso_AG_logo.svg/1280px-Adesso_AG_logo.svg.png"
+  },
+    {
+    "profession": "Software Engineer",
+    "employmentType": "Full-time",
+    "company": "adesso SE",
+    "location": {
+      "city": "Stuttgart(-Vaihingen)",
+      "country": "Germany"
+    },
+    "remote": false,
+    "periodStart": "12/2024",
+    "periodEnd": "present",
+    "description": "business. people. technology. I am starting my full-time career as a software enginner with adesso. I drive forward challenging customer projects and innovative internal AI-GPT projects.",
+    "keywords": ["React", "JavaScript", "Microsoft Power Pages"],
     "link": "https://www.adesso.de/de/",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Adesso_AG_logo.svg/1280px-Adesso_AG_logo.svg.png"
   }
