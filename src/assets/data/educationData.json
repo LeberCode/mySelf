@@ -32,14 +32,14 @@
   {
     "degree": "M.Sc. Digital Business Engineering",
     "institution": "Hermann Hollerith Center",
-    "grade": "currently 1.5",
+    "grade": "1.5",
     "location": {
       "city": "Böblingen",
       "country": "Germany"
     },
     "periodStart": "03/2022",
     "periodEnd": "09/2024",
-    "description": "This is where my path into the (digital) business world begins. It is very exciting how I can apply my previous knowledge of software development as a basis for conceptualizing new business models. The perfect approach to work with digitalization. In my thesis I develop a messaging modeling tool in which you can deploy your architectures right away.",
+    "description": "This is where my path into the digital business world begins. It is very exciting how I can apply my previous knowledge of software development as a basis for conceptualizing new business models. The perfect approach to work with digitalization. In my thesis I develop a messaging modeling tool in which you can deploy your architectures right away.",
     "link": "https://www.hhz.de/de/master/digital-business-engineering/",
     "link2": "",
     "logo": "https://www.dibuco.de/wp-content/uploads/2017/08/HHZ_Logo_Hochschulen.png"
